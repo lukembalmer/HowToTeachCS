@@ -67,12 +67,12 @@ nav a:hover {
 .profile {
     width: 20%;
     height: 148.8px;
-    margin: 10px;
-    padding: 10px;
-    border: 5px solid #1C1C1C;
+
     float: right;
-    display: flex;
-    margin-left: 80%;
+
+}
+.profileText {
+    display: inline-flex;
 }
 section {
     margin: 20px 20px;
