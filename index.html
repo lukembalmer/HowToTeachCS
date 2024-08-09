@@ -10,7 +10,7 @@
         </script>
     </head>
     <body>
-    <div class="header-nav-container">
+    <div class="header-nav-container" id="myHeader">
         <header>
             <h1>HowToTeachCS</h1>
             <h2>Computer Science Education Resources</h2>
@@ -18,15 +18,16 @@
     <!-- High-level sections of recommendations-->
         <!--Getting Started | In-Class Tools | PD and Courses | Further Reading -->
         <nav>
-            <a href="#GS">Getting Started</a>
+            <a href="#GS" class="active">Getting Started</a>
             <a href="inclasstools.html">In-Class Tools</a>
             <a href="pdandcourses.html">PD and Courses</a>
             <a href="furtherreading.html">Further Reading</a>
             <a href="about.html">About</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="mobileResponsiveNav()">&#9776;</a>
         </nav>
     </div>
         <section id="GS">
-            <h2>Why to start?</h2>
+            <h2>Why start teaching computer science?</h2>
             <p>It can be especially daunting to approach teaching computer science or begin incorporating it into your classroom.
                 But the benefits can be incredibly rewarding, both for you and your students. Starting one step at a time
                 and knowing that you don't have to be an expert right away can put you and your students on the path to
@@ -42,14 +43,15 @@
         </section>
     <section id = "Recommendations">
         <h2>How to start?</h2>
-        <p> First, watch our short primer video to get a lay of the land and understand how to use these resources.</p>
+        <p>Many teachers have already begun implementing computer science in their curriculum, but resources on effective pedagogy and practices can be difficult to find or inaccessible. For those who have some experience or have already found a curriculum for them, <a href="pdandcourses.html">PD and Courses</a> as well as <a href="furtherreading.html">Further Reading</a> point to resources for your exploration. For those who are just beginning or feel uneasy in the face of a daunting undertaking, the guide below offers a step-by-step guide.</p>
+        <!--<p> First, watch our short primer video to get a lay of the land and understand how to use these resources.</p>
         <div style="text-align:center">
         <video width="320" height="240" controls style="justify-content: center">
                 <source src="https://www.youtube.com/watch?v=NpEaa2P7qZI" type="video/mp4">
                 Your browser does not support the video tag.</video>
-        </div>
+        </div> -->
         <p>
-            Then, pick a tentative curriculum to start with by using the flowchart below: <br>
+            First, pick a tentative curriculum to start with by using the flowchart below: <br>
         </p>
         <!Flowchart>
         <div style="text-align:center">
